@@ -17,4 +17,4 @@ jobs:
     - name: Run Python script
       run: |
         python run.py
-        
+        touch /tmp/keepalive 
